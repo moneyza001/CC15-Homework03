@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navRight {
+    display: flex;
+    justify-content: end;
+}
+
+nav {
+    margin: 20px 32px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 2px 16px 0px 0px;
+}
+
+nav a:hover {
+    color: #ff6464;
+}
+
+.greeting {
+    display: flex;
+    margin: 40px auto;
+    justify-content: space-between;
+    width: 880px;
+    align-items: flex-start;
+}
+
+.text {
+    width: 500px;
+}
+
+.text p {
+    margin-top: 20px;
+}
+
+.myButton {
+    background-color: #ff6464;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 2px;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: white;
+
+}
+
+.myButton:hover {
+    background-color: #b6db67;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.greeting img {
+    border-radius: 50%;
+    width: 200px;
+    height: 230px;
+}
+
+.middleText {
+    background-color: #edf7fa;
+    padding: 16px;
+}
+
+.headMid {
+    margin: auto;
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.headMid>h3 {
+    font-size: 22px;
+    font-style: normal;
+}
+
+.headMid > a {
+    color: #00a8cc;
+    text-decoration: none;
+}
+
+.headMid > a:hover {
+    color: #ff6464;
+}
+
+.leftmid {
+    background-color: #fff;
+    width: 420px;
+    margin: 20px;
+    padding: 12px;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+}
+
+.leftmid h2 {
+    margin: 20px;
+}
+
+.dateL {
+    font-size: 18px;
+}
+
+.leftmid p {
+    margin: 20px;
+
+}
+
+.rightMid {
+    background-color: #fff;
+    width: 420px;
+    margin: 20px;
+    padding: 12px;
+}
+
+.rightMid h2 {
+    margin: 20px;
+}
+
+.dateR {
+    font-size: 18px;
+}
+
+.rightMid p {
+    margin: 20px;
+
+}
+
+.bottomSide {
+    margin: auto;
+    width: 880px;
+}
+
+.bottomSide h3 {
+    margin-top: 32px;
+}
+
+.botWork {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.work {
+    display: flex;
+    width: 880px;
+}
+
+.detail {
+    margin-left: 16px;
+}
+
+.detail a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+.detail a:hover {
+    color: #ff6464;
+}
+
+.shadow {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.illusText {
+    color: #8695a4;
+}
+
+
+.detail div {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.detail button {
+    color: white;
+    background-color: #142850;
+    border-radius: 20px;
+    padding: 2px 4px;
+    font-size: 18px;
+    margin-right: 20px;
+    border: none;
+}
+
+.illusText {
+    font-size: 20px;
+}
+
+.work img {
+    width: 240px;
+    height: 180px;
+    border-radius: 6px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.footPic img {
+    width: 30px;
+    height: 30px;
+    margin: 100px 16px 26px 0px;
+}
+
+/* only for Blog */
+
+
+.leftmid {
+    background-color: #fff;
+    width: 420px;
+    margin: 20px;
+    padding: 12px;
+}
+
+.contBlog {
+    margin: auto;
+    width: 800px;
+}
+
+.midBlog {
+    margin-top: 40px;
+}
+
+.detailBlog {
+    margin-top: 8px;
+}
+
+.detailBlog * {
+    margin-bottom: 8px;
+    /* margin-top: 16px; */
+}
+
+.midFlex {
+    display: flex;
+    gap: 12px;
+}
+
+.expressBlog {
+    color: #8695a4;
+}
+
+.detailBlog>p {
+    width: 690px;
+}
+
+/* work detail */
+
+.workDetail {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin-left: auto;
+}
+
+.workDetail>p:first-child {
+    font-size: 2.1rem;
+    font-weight: 650;
+    width: 500px;
+}
+
+.workDetail>img {
+    width: 100%;
+    height: 460px;
+    margin: 40px auto;
+}
+
+.midDetail {
+    display: flex;
+    margin: 30px 0px 24px 0px;
+}
+
+.midDetail button {
+    color: white;
+    background-color: #ff6464;
+    border-radius: 20px;
+    padding: 2px 4px;
+    font-size: 18px;
+    margin-right: 20px;
+    border: none;
+}
+
+.midDetail>p:nth-child(2) {
+    font-size: 1.3rem;
+    width: 680px;
+}
+
+.subDetailWork * {
+    margin: 16px 0px;
+}
